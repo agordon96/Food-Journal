@@ -1,0 +1,18 @@
+WHAT I DID TO TEST...
+
+...Parsing. I started off creating tokens using the \n as a delimiter, and then proceeded to try different ways of parsing them
+and printing the result when I was satisfied with my work. Once that was complete, I thought of simply
+taking the individual characters of the tokens and turning them into integers as that was the only thing I tracked in my 
+structs in this assignment. Once I realized I needed to delimit commas and newlines, I simply tokened the different
+lines via main and then tokened each string in the same file.
+
+...File checking. Simple enough, I checked if the file from the second argument was null or not. If it was, the program didn't 
+start. If there was an invalid amount of arguments, then I did the same thing.
+
+...Creating functions. I initially copied down everything that was mandatory for the functions (such as parameters) and initialized
+those as well as accompanying mallocs and such where appropriate. Once I had all of the stuff I figured was the building blocks for
+the program, I did what I said below to pinpoint problems from the massive amount of code I had written and worked from there.
+
+...Segmentation faults. Read below.
+
+In short, GETCHAR() GETCHAR() AND MORE GETCHAR() to discover where the problem lines are and for quicker troubleshooting.

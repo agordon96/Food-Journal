@@ -1,0 +1,9 @@
+food,fat,0,
+fooda,fat,5,h
+2344,jhk,0,f
+foodc,meat,51,h
+foodd,meat,1,h
+foode,vegfruit,72,j
+foodf,grains,72,j
+foodg,dairy,72,j
+foodh,fat,72,h
